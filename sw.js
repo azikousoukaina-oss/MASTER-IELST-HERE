@@ -1,6 +1,6 @@
 'use strict';
 
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v3';
 const CACHE_NAME = `sovereign-${CACHE_VERSION}`;
 const FONT_CACHE = 'sovereign-fonts-v1';
 
