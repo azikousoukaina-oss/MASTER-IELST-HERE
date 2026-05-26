@@ -1,0 +1,57 @@
+{
+  "name": "Sovereign — Soukaina's Life OS",
+  "short_name": "Sovereign",
+  "description": "Your personal life operating system — study, wellness, work, and growth in perfect harmony.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#1A0E14",
+  "theme_color": "#C9886C",
+  "orientation": "portrait-primary",
+  "categories": ["productivity", "lifestyle", "education"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/icons/screenshot-1.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "label": "Today's Schedule"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Today's Plan",
+      "short_name": "Today",
+      "url": "/index.html#today",
+      "description": "View today's schedule and blocks"
+    },
+    {
+      "name": "Code Lab",
+      "short_name": "Code",
+      "url": "/index.html#codelab",
+      "description": "Open the coding workspace"
+    },
+    {
+      "name": "Developer Academy",
+      "short_name": "Academy",
+      "url": "/index.html#academy",
+      "description": "Continue your full-stack curriculum"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
