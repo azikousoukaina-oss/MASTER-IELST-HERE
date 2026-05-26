@@ -188,8 +188,8 @@ window.SovereignReminders = (() => {
       try {
         new Notification(title, {
           body,
-          icon: '/icons/icon.svg',
-          badge: '/icons/icon.svg',
+          icon: 'icons/icon.svg',
+          badge: 'icons/icon.svg',
           silent: false,
           ...options
         });
